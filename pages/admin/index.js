@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import AddProducts from './addProduct'
+import AddProducts from './addproduct'
 import Orders from './orders'
 import Products from './products'
-import Sidebar from '../../components/Sidebar'
+import Sidebar from '../../components/sidebar'
 
 
 export default function Dashboard() {
