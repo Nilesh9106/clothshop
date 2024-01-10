@@ -18,8 +18,8 @@ const AllProducts = () => {
     return (
         <div className="p-4 flex-1">
             <h2 className="text-2xl font-bold mb-4">All Products</h2>
-            {products.length && <div className="overflow-x-auto mx-auto container w-full my-10">
-                <table className="w-full text-sm text-left text-neutral-500 dark:text-neutral-400">
+            {products.length && <div className="overflow-x-auto   my-10">
+                <table className="min-w-full overflow-x-scroll text-sm text-left text-neutral-500 dark:text-neutral-400">
                     <thead className="text-xs text-neutral-700 uppercase bg-neutral-50 dark:bg-neutral-700 dark:text-neutral-400">
                         <tr>
                             <th scope="col" className="py-3 px-6">
